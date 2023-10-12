@@ -21,9 +21,9 @@ function MovieDetailsView({ movies }) {
     return (
         <div className="App">
             <Card bg="dark" className="movie-details">
-                <video controls>
-                    <source src={movie.trailerlink} />
-                </video>
+                <iframe src={movie.trailerlink} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    
+                </iframe>
                 <Card.Body>
                     <Card.Title className="text-success">{movie.title}</Card.Title>
                     <Card.Text className="description-color" >
