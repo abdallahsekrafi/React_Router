@@ -22,17 +22,17 @@
   height: 20rem;
 }
 
-.movie-details video {
-  width: 861px;
-  height: 484px;
+.movie-details iframe {
+  width: 760px;
+  height: 415px;
 }
 
 .movie-details {
   border-radius: 10px;
   padding: 1px;
   margin: 0 auto;
-  box-shadow: 0 0 5px 0 gray, 0 0 0 0 gray;
-  width: 865px;
+  box-shadow: 0 0 10px 0 green, 0 0 0 0 yellow;
+  width: 764px;
 }
 .description-color {
   color: #e7e7e78a;
